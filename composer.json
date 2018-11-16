@@ -1,0 +1,25 @@
+{
+    "name": "knowband/guzzlehttp-command",
+    "description": "Provides the foundation for building command based web service clients",
+    "license": "MIT",
+	"license": "proprietary",
+    "authors": [
+        {
+            "name": "Knowband",
+            "email": "akumar2@velsof.com",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "knowband/guzzlehttp": "0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp1\\Command\\": "src/"
+        }
+    }
+}
